@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/sysdev/src/!svn/ver/19709/packages/d/dropto/trunk/debian
+END
+control
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/sysdev/src/!svn/ver/19411/packages/d/dropto/trunk/debian/control
+END
+compat
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/sysdev/src/!svn/ver/16652/packages/d/dropto/trunk/debian/compat
+END
+changelog
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/sysdev/src/!svn/ver/19709/packages/d/dropto/trunk/debian/changelog
+END
+rules
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/sysdev/src/!svn/ver/17419/packages/d/dropto/trunk/debian/rules
+END

@@ -1,0 +1,17 @@
+Revision history for dropto.
+
+0.3.2 2011-03-29 13:31:12Z
+	- Remove unused files.
+	- Newlines on all error messages.
+
+0.3.1 2010-09-28 16:45:05Z
+	- Fix error message.
+	
+0.3 2010-09-28 14:47:01Z
+	- Document exit codes.
+
+0.2.1 2010-07-30 18:29:06Z
+	- Exclude autom4te.cache from portable source distribution.
+
+0.2 2010-07-20 18:26:27Z
+        - Use standard libraries, and autotools.

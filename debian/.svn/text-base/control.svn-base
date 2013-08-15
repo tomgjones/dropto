@@ -1,0 +1,12 @@
+Source: dropto
+Section: admin
+Priority: optional
+Maintainer: Tom Jones <tom.jones@oucs.ox.ac.uk>
+Standards-Version: 3.5.8
+Build-Depends: debhelper (>= 4.0.0)
+
+Package: dropto
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: A program for running another program with dropped privilege.
+ The code is based on setuidgid from daemontools, but supplementary group memberships are available.

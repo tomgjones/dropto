@@ -1,0 +1,4 @@
+dropto runs a program as another user with full supplementary group
+memberships.
+
+Bug reports to sysdev@oucs.ox.ac.uk.

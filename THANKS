@@ -1,0 +1,8 @@
+Thanks to:
+
+~
+
+    Dan Bernstein for writing daemontools and releasing it into the public
+    domain.
+
+    Huaqing Zheng for providing a proof of concept patch in Debian bug #534508.

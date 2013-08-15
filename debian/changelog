@@ -1,0 +1,49 @@
+dropto (0.3.4) unstable; urgency=low
+
+  * Minor doc changes.
+
+ -- Tom Jones <tom.jones@oucs.ox.ac.uk>  Sat, 25 Feb 2012 01:19:46 +0000
+
+dropto (0.3.3) unstable; urgency=low
+
+  * Manpage in mandoc format instead of asciidoc.  Reduces build
+    dependencies and enhances semantic content of documentation.
+
+ -- Tom Jones <tom.jones@oucs.ox.ac.uk>  Fri, 24 Feb 2012 20:17:01 +0000
+
+dropto (0.3.2) unstable; urgency=low
+
+  * Remove unused files.
+  * Newlines on all error messages.
+
+ -- Tom Jones <tom.jones@oucs.ox.ac.uk>  Thu, 24 Feb 2011 20:13:58 +0000
+
+dropto (0.3.1) unstable; urgency=low
+
+  * Fix error message.
+
+ -- Tom Jones <tom.jones@oucs.ox.ac.uk>  Tue, 28 Sep 2010 16:45:09 +0100
+
+dropto (0.3) unstable; urgency=low
+
+  * Document exit codes.
+
+ -- Tom Jones <tom.jones@oucs.ox.ac.uk>  Tue, 28 Sep 2010 14:48:02 +0100
+
+dropto (0.2.1) unstable; urgency=low
+
+  * Exclude autom4te.cache from portable source distribution.
+
+ -- Tom Jones <tom.jones@oucs.ox.ac.uk>  Fri, 30 Jul 2010 18:28:04 +0100
+
+dropto (0.2) unstable; urgency=low
+
+  * Use standard libraries, and autotools.
+
+ -- Tom Jones <tom.jones@oucs.ox.ac.uk>  Tue, 20 Jul 2010 19:53:01 +0100
+
+dropto (0.1) unstable; urgency=low
+
+  * Initial version based on daemontools code.
+
+ -- Tom Jones <tom.jones@oucs.ox.ac.uk>  Mon, 07 Dec 2009 12:22:47 +0000

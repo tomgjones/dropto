@@ -1,0 +1,61 @@
+.Dd $Mdocdate$ 
+.Dt dropto 8 
+.Os 
+.Sh NAME 
+.Nm dropto 
+.Nd Run a program as an unprivileged user
+.Sh SYNOPSIS 
+.Nm dropto 
+.Ar USER
+.Ar PROG
+.Op ARGS ...
+.Sh DESCRIPTION 
+.Nm dropto
+runs
+.Ar PROG
+with
+.Ar ARGS
+as
+.Ar USER .
+Unlike
+.Xr setuidgid 8
+from daemontools,
+the resulting process is a member of 
+.Ar USER Ap
+s supplementary groups.
+
+It normally only makes sense to run
+.Nm dropto
+as root.
+.Sh ENVIRONMENT 
+The environment is passed through unaltered to the resulting process.
+.Sh EXIT STATUS 
+.Nm dropto
+will exit 100 if there was a usage error.  It will
+exit 111 if it encounters any other error.
+
+If
+.Nm dropto
+manages to exec 
+.Ar PROG ,
+the exit status of the process will
+be the exit status of 
+.Ar PROG .
+Note that 
+.Ar PROG
+may also exit with code
+100 or 111, so inspection of the process's return code is not sufficient to
+tell whether any error occurred in 
+.Nm dropto
+or in 
+.Ar PROG .
+.Sh EXAMPLES 
+# dropto nobody id
+.Sh SEE ALSO 
+.Xr setuidgid 8
+from daemontools
+.Po
+.Lk http://cr.yp.to/daemontools/setuidgid.html "setuidgid web page"
+.Pc .
+.Sh AUTHORS 
+Tom Jones <tom.jones@oucs.ox.ac.uk>
